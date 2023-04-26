@@ -13,6 +13,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+
         try {
 
             SQLiteDatabase database=this.openOrCreateDatabase("painters",MODE_PRIVATE,null);
